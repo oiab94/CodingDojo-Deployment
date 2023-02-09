@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend de nuestro primer deployment",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oiab94/CodingDojo-Deployment.git"
+  },
+  "author": "oiab94",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oiab94/CodingDojo-Deployment/issues"
+  },
+  "homepage": "https://github.com/oiab94/CodingDojo-Deployment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
